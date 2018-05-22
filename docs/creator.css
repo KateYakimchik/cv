@@ -9111,7 +9111,14 @@ header.colorTxtNavyBlue3,footer.colorTxtNavyBlue3{color:#003d74}
 .page .dRow .dCol .section.sectionType3 figure{margin:0;border:none}
 .page .dRow .dCol .section.sectionType3 figure .ui-wrapper{position:relative}
 .page .dRow .dCol .section.sectionType3 figure .ui-wrapper:hover:before{font-family:FontAwesome;color:#FFF;content:"\f0b2";position:absolute;bottom:.1rem;right:.1rem;width:2rem;height:2rem;font-size:1.5rem;line-height:2rem;text-align:center;background:rgba(0,0,0,0.25)}
-.page .dRow .dCol .section.sectionType3 figure img{width:100%;max-width:33rem;min-width:100px;max-height:60rem;height:auto}
+.page .dRow .dCol .section.sectionType3 figure img{
+	width: 100%;
+    max-width: 33rem;
+    min-width: 218px;
+    max-height: 60rem;
+    height: auto;
+    min-height: 279px;
+}
 .page .section .entry span.normalText{font-weight:400;font-style:normal}
 .page .dRow .dCol .section h3.title{z-index:1;white-space:nowrap}
 .page .dRow .dCol .section h3.title span.ico,.page .dRow .dCol .section h3.title span.txt{display:inline-block;vertical-align:middle}
@@ -12105,7 +12112,7 @@ html{font-size:10px;font-family:Arimo, sans-serif}body{font-size:0;background-co
 .c-document__content .page,.c-document__content .dRow,.c-document__content dCol,#creatorContent .page,#creatorContent .dRow,#creatorContent dCol{width:100%;position:relative}
 .c-document__content .page.ui-droppable-active.ui-droppable-hover,.c-document__content .dRow.ui-droppable-active.ui-droppable-hover,.c-document__content dCol.ui-droppable-active.ui-droppable-hover,#creatorContent .page.ui-droppable-active.ui-droppable-hover,#creatorContent .dRow.ui-droppable-active.ui-droppable-hover,#creatorContent dCol.ui-droppable-active.ui-droppable-hover{opacity:.5;background-color:#04c860}
 .c-document__content .dCol,#creatorContent .dCol{display:inline-block;min-height:inherit;vertical-align:top}
-.c-document__content .page,#creatorContent .page{width:99rem;min-height:140rem}
+.c-document__content .page,#creatorContent .page{width:99rem;min-height:145rem}
 .c-document__content .page.pageSplitted,#creatorContent .page.pageSplitted{max-height:140rem}
 @media screen{.c-document__content .page,#creatorContent .page{margin:0 auto 2.5rem;background-color:#FFFFFF;box-shadow:0 0.5rem 2.5rem 0 rgba(0,0,0,0.25)}
 .c-document__content .page:first-of-type,#creatorContent .page:first-of-type{margin-top:2rem !important}}
